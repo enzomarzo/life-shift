@@ -1,0 +1,6 @@
+{
+	"eslint.packageManager": "pnpm",
+	"cSpell.words": [
+		"merkle"
+	]
+}

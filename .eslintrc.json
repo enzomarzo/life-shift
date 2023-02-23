@@ -1,3 +1,13 @@
 {
-  "extends": "next/core-web-vitals"
+	"extends": [
+		"next/core-web-vitals",
+		"@merkle-open/eslint-config/configurations/es8-browser",
+		"@merkle-open/eslint-config/configurations/es8-react",
+		"@merkle-open/eslint-config/configurations/typescript-react.js"
+	],
+	"settings": {
+		"react": {
+			"version": "detect"
+		}
+	}
 }
